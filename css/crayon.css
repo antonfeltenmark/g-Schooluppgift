@@ -32,31 +32,31 @@
         radial-gradient(ellipse at top, var(--crayon-line-color) 24%, transparent 24%
         ),
         
-    /* Vertical lines left side */
-    linear-gradient(to right, 
-    transparent 14%, var(--crayon-line-color) 14%,
-    var(--crayon-line-color) 17%, transparent 17%
-    ),
+         /* Vertical lines left side */
+        linear-gradient(to right, 
+        transparent 14%, var(--crayon-line-color) 14%,
+        var(--crayon-line-color) 17%, transparent 17%
+        ),
 
-    linear-gradient(to right, 
-    transparent 20%, var(--crayon-line-color) 20%,
-    var(--crayon-line-color) 23%, transparent 23%
-    ),
+        linear-gradient(to right, 
+        transparent 20%, var(--crayon-line-color) 20%,
+        var(--crayon-line-color) 23%, transparent 23%
+        ),
 
-    /* Vertical lines right side */
-    linear-gradient(to right, 
-    transparent 78%, var(--crayon-line-color) 78%,
-    var(--crayon-line-color) 81%, transparent 81%
-    ),
+        /* Vertical lines right side */
+        linear-gradient(to right, 
+        transparent 78%, var(--crayon-line-color) 78%,
+        var(--crayon-line-color) 81%, transparent 81%
+        ),
 
-    linear-gradient(to right, 
-    transparent 84%, var(--crayon-line-color) 84%,
-    var(--crayon-line-color) 87%, transparent 87%
-    ),
+        linear-gradient(to right, 
+        transparent 84%, var(--crayon-line-color) 84%,
+        var(--crayon-line-color) 87%, transparent 87%
+        ),
 
-    /* Crayon paper*/
-    linear-gradient(to right, 
-    transparent 8%, var(--crayon-paper-color) 8%,
-    var(--crayon-paper-color) 92%, transparent 92%
-    );
+        /* Crayon paper*/
+       linear-gradient(to right, 
+       transparent 8%, var(--crayon-paper-color) 8%,
+       var(--crayon-paper-color) 92%, transparent 92%
+       );
 }
