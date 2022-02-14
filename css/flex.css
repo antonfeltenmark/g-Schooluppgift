@@ -1,14 +1,19 @@
+
+
 /** Display settings **/
-.d-flex{
-    display: flex;
-}
+
+.d-flex{ display: flex;} 
+.d-none{ display: none;}
+
 /** Flex **/
-.flex-grow{
-    flex-grow: 1;
-}
+.flex-grow{ flex-grow: 1;}
+.flex-column{ flex-direction: column;}
+.flex-row{ flex-direction: row;}
+.flex-row-reverse {flex-direction: row-reverse;}
+
 /** Align and justify **/
-.justify-content-between {
-    justify-content: space-between;
-}
+
+.justify-content-between { justify-content: space-between;}
 
 .align-items-center{ align-items: center;}
+

@@ -20,7 +20,7 @@
 
     --display-xxs: 1rem;
     --display-xs: 1.4rem;
-    --display-sm: 2.6rem;
+    --display-sm: 1.6rem;
     --display-md: 1.8rem;
     --display-lg: 2rem;
     --display-xl: 2.5rem;
@@ -46,10 +46,11 @@
     --distance-9: 2.25rem;
     --distance-10: 2.5rem;
     --distance-11: 2.75rem;
-    --distance-12: 3.25rem;
-    --distance-13: 3.5rem;
-    --distance-14: 3.75rem;
-    --distance-15: 4rem;
+    --distance-12: 3rem;
+    --distance-13: 3.25rem;
+    --distance-14: 3.5rem;
+    --distance-15: 3.75rem;
+    --distance-16: 4rem;
 
     /** Shadows **/
 
@@ -114,7 +115,7 @@ body{
 
 .text-primary{color: var(--color-primary);}
 .text-secondary{color: var(--color-secondary);}
-.text-succes{color: var(--color-success);}
+.text-success{color: var(--color-success);}
 .text-info{color: var(--color-info);}
 .text-warning{color: var(--color-warning);}
 .text-danger{color: var(--color-danger);}
