@@ -19,6 +19,8 @@
 .mr-auto, .mx-auto{ margin-right: auto;}
 .ml-auto, .mx-auto{ margin-left: auto;}
 
+.m-6{ margin: var(--distance-6);}
+
 
 .mt-0, .my-0{ margin-top: var(--distance-0); }     /* 0rem */
 .mb-0, .my-0{ margin-bottom: var(--distance-0); }
@@ -73,10 +75,16 @@
 .p-12{ padding: var(--distance-12);}
 .p-15{ padding: var(--distance-15);}
 
+.pr-2, .px-2{ padding-right: var(--distance-2);}
+.pl-2, .px-2{ padding-left: var(--distance-2);}
+.pr-12, .px-12{ padding-right: var(--distance-12);}
+.pl-12, .px-12{ padding-left: var(--distance-12);}
+
 /** Typography ***/
 
 .text-decoration-none{ text-decoration: none;}
 .text-center {text-align: center;}
+.text-uppercase { text-transform: uppercase;}
 
 .text-size-xxs{font-size: var(--display-xxs);}
 .text-size-xs{font-size: var(--display-xs);}
@@ -96,9 +104,12 @@
 
 /** Circle **/
 .circle{ border-radius: 100%;}
+.circle-lg { width: 15rem; height: 15rem;}
+
 
 /** Shadows **/
 .shadow-sm{ box-shadow: var(--shadow-small-light); }
+.shadow-lg{ box-shadow: var(--shadow-large-light);}
 
 /** Buttons **/
 
@@ -114,8 +125,21 @@ nav div a:not(:first-child) { margin-left: var(--distance-12);}
 .border-small-white{ border: var(--border-xs-white);}
 .border-radius{ border-radius: var(--border-radius-sm);}
 .border-bottom-xs{ border-bottom: var(--border-xs);}
+.border-sm {border: var(--border-sm);}
+
+.border-transparent{ border: var(--border-transparent);}
+
 /** Colored bar **/
 
 .bar-height{
     height: .3rem;
 }
+
+/** feature **/
+
+.f-width { max-width: 33%;}
+
+/**  Icons feature **/
+
+.icon-feature { width: 7.6rem; height: 7.6rem; padding: 0.375;}
+.icon-circle { width: 6.2rem; height: 6.2rem; line-height: 6rem;}
