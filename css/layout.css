@@ -2,6 +2,9 @@
 /** Widths **/
 
 .max-width{ max-width: 192;}
+.card-width { max-width: 60rem;}
+.width-lg { max-width: 50%;}
+.min-width-xxl { min-width: 100%;}
 
 /** Position **/
 .position-relative {position: relative !important;}
@@ -20,6 +23,8 @@
 .ml-auto, .mx-auto{ margin-left: auto;}
 
 .m-6{ margin: var(--distance-6);}
+.m-15{ margin: var(--distance-15);}
+
 
 
 .mt-0, .my-0{ margin-top: var(--distance-0); }     /* 0rem */
@@ -41,6 +46,9 @@
 .mt-15, .my-15{ margin-top: var(--distance-15); }  /* 4rem */
 .mb-15, .my-15{ margin-bottom: var(--distance-15); }
 
+
+
+
 .mr-4, .mx-4{ margin-right: var(--distance-4);}
 .ml-4 , .mx-4{ margin-left: var(--distance-4);}
 .mr-6, .mx6{ margin-right: var(--distance-6);}
@@ -49,12 +57,13 @@
 /** Images **/
 
 .logo-width{ max-width: 13rem;}
+.img-lg-width{ max-width: 60%;}
 
 /** Slideshow **/
 .slider-width{ width: 400%;} /* 100% per image */
 .slider-container { width: 25%;} /* Display first of 4 images */
 .slider-image { width: 100%; object-fit: cover;}
-/* .slider-animation {animation: 30s slider-keyframes infinite;} */
+.slider-animation {animation: 30s slider-keyframes infinite;} 
 
 @keyframes slider-keyframes {
     0% {left: 0%;}
@@ -77,14 +86,24 @@
 
 .pr-2, .px-2{ padding-right: var(--distance-2);}
 .pl-2, .px-2{ padding-left: var(--distance-2);}
+
+.pr-4, .px-4{ padding-right: var(--distance-4);}
+.pl-4, .px-4{ padding-left: var(--distance-4);}
+.pr-5, .px-5{ padding-right: var(--distance-5);}
+.pl-5, .px-5{ padding-left: var(--distance-5);}
+
 .pr-12, .px-12{ padding-right: var(--distance-12);}
 .pl-12, .px-12{ padding-left: var(--distance-12);}
+
+.pt-2, .py-2{ padding-top: var(--distance-2);}
+.pb-2, .py-2{ padding-bottom: var(--distance-2);}
 
 /** Typography ***/
 
 .text-decoration-none{ text-decoration: none;}
 .text-center {text-align: center;}
 .text-uppercase { text-transform: uppercase;}
+.text-bold {font-weight: bold;}
 
 .text-size-xxs{font-size: var(--display-xxs);}
 .text-size-xs{font-size: var(--display-xs);}
@@ -126,6 +145,7 @@ nav div a:not(:first-child) { margin-left: var(--distance-12);}
 .border-radius{ border-radius: var(--border-radius-sm);}
 .border-bottom-xs{ border-bottom: var(--border-xs);}
 .border-sm {border: var(--border-sm);}
+.border-lg {border: var(--border-lg);}
 
 .border-transparent{ border: var(--border-transparent);}
 
@@ -143,3 +163,10 @@ nav div a:not(:first-child) { margin-left: var(--distance-12);}
 
 .icon-feature { width: 7.6rem; height: 7.6rem; padding: 0.375;}
 .icon-circle { width: 6.2rem; height: 6.2rem; line-height: 6rem;}
+.icon-form-control { right: 10px; top: 10px;}
+
+/** Statistics **/
+.statistics-image {
+    background-image: url('../images/images/fun-facts/fun-facts-bg-img.jpg') ;
+    background-repeat: no-repeat; background-size: cover; background-position: center;
+}
