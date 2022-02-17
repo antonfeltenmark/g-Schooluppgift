@@ -12,7 +12,7 @@
     .d-sm-none { display: none !important; }
     .d-sm-block {display: block !important; }
     nav div a:not(:first-child) { margin-left: 2rem;}
-    .f-width { font-size: 100% !important; }
+    .f-width { max-width: 100% !important; }
     .md-sm-12 { margin-bottom: var(--distance-12); }
     .flex-sm-column { flex-direction: column;}
     footer > div > div { max-width: 100% !important; }
