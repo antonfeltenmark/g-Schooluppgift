@@ -77,6 +77,8 @@
 
 /** Padding **/
 
+.p-1 {padding: var(--distance-1);}
+.p-2 { padding: var(--distance-2);}
 .p-4{ padding: var(--distance-4);}
 .p-5{ padding: var(--distance-5);}
 .p-6{ padding: var(--distance-6);}
